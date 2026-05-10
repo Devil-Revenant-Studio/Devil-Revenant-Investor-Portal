@@ -40,7 +40,10 @@ Devil Revenant Studio utilizes a **modern, scalable, and production-ready** tech
 │  ├─ Polkadot DOT (Primary Token)               │
 │  └─ Alchemy RPC (Node Provider)                │
 │                                                 │
-│  DEPLOYMENT                                     │
+│  CLOUD & DEPLOYMENT                             │
+│  ├─ Google Cloud Platform (GCP)                │
+│  ├─ Amazon Web Services (AWS)                  │
+│  ├─ Microsoft Azure                            │
 │  ├─ Railway.app (Production Hosting)           │
 │  ├─ GitHub Actions (CI/CD)                     │
 │  ├─ Docker Hub (Container Registry)            │
@@ -276,6 +279,9 @@ Contract: DevilRevenantNFT.sol (ERC-721)
 | **Cache** | Redis Cloud | Real-time state | $18/mo |
 | **LLM APIs** | OpenAI/Vertex | AI processing | Pay-per-use |
 | **RPC Nodes** | Alchemy | Blockchain | $20-50/mo |
+| **Cloud (GCP)** | Google Cloud | Vertex AI, Cloud Run, GKE | Pay-per-use |
+| **Cloud (AWS)** | Amazon Web Services | EC2, EKS, S3, Lambda | Pay-per-use |
+| **Cloud (Azure)** | Microsoft Azure | AKS, App Service, Cosmos DB | Pay-per-use |
 
 ### CI/CD Pipeline
 
@@ -374,8 +380,30 @@ services:
 | **Redis** | Sub-ms latency, pub/sub support | Memcached (simpler), DynamoDB (vendor lock) |
 | **Python AI** | Rich ML libraries, OpenAI integration | Java (verbose), Rust (niche) |
 | **Solidity** | Industry standard for EVM | Vyper (niche), Move (Aptos only) |
-| **Railway** | Simple deploy, auto-scaling | Heroku (expensive), AWS (complex) |
+| **Railway** | Simple deploy, auto-scaling | Heroku (expensive) |
+| **Multi-Cloud** | GCP + AWS + Azure ready; avoid vendor lock-in | Single-cloud dependency |
 
 ---
 
-*Technology Stack Last Updated: May 7, 2026*
+### ☁️ Multi-Cloud Strategy
+
+The platform is designed for **cloud-agnostic deployment** across major providers:
+
+| Provider | Services Used | Purpose |
+|----------|--------------|----------|
+| **Google Cloud (GCP)** | Vertex AI, Cloud Run, GKE, Cloud Storage | AI/ML inference, container orchestration |
+| **Amazon Web Services (AWS)** | EC2, EKS, S3, Lambda, CloudFront | Compute, storage, CDN, serverless |
+| **Microsoft Azure** | AKS, App Service, Cosmos DB, Azure AI | Kubernetes, PaaS hosting, AI services |
+| **Railway** | App hosting | Current production (Node.js server) |
+| **MongoDB Atlas** | Multi-cloud clusters | Database (runs on GCP/AWS/Azure) |
+| **Redis Cloud** | Multi-cloud caching | Cache layer (multi-region) |
+
+**Benefits:**
+- 🔄 No vendor lock-in — containerized workloads portable across all 3 clouds
+- 🌍 Multi-region availability (GCP: EU, AWS: US, Azure: Asia)
+- 💰 Cost optimization — best-of-breed services from each provider
+- 🛡️ Disaster recovery — cross-cloud failover capability
+
+---
+
+*Technology Stack Last Updated: May 10, 2026*

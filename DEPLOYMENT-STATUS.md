@@ -277,7 +277,22 @@ Timeline to max:          Aug-Sep 2026 (if hockey-stick adoption)
 3. Deploy second API instance (load-balanced)
 4. Upgrade Railway tier (premium)
 
-**Estimated cost increase:** +$200/month
+**Multi-Cloud Scaling (5,000+ players):**
+
+| Provider | Service | Purpose | Trigger |
+|----------|---------|---------|----------|
+| **Google Cloud (GCP)** | GKE + Cloud Run | Container orchestration, AI workloads | 5K+ concurrent |
+| **Amazon Web Services (AWS)** | EKS + EC2 + CloudFront | Kubernetes, compute, CDN | 10K+ concurrent |
+| **Microsoft Azure** | AKS + App Service | Kubernetes, PaaS fallback | 10K+ concurrent |
+
+**Cloud-Ready Architecture:**
+- ✅ Docker containers — portable across all 3 clouds
+- ✅ Kubernetes manifests — GKE / EKS / AKS compatible
+- ✅ MongoDB Atlas — multi-cloud clusters (GCP, AWS, Azure)
+- ✅ Redis Cloud — multi-region support
+- ✅ CI/CD — GitHub Actions deploys to any cloud target
+
+**Estimated cost increase:** +$200-500/month (cloud scaling)
 
 ---
 
@@ -367,5 +382,5 @@ Total Issues Found:    3
 
 ---
 
-*Deployment Status Last Updated: May 7, 2026*  
+*Deployment Status Last Updated: May 10, 2026*  
 *Next Review: May 14, 2026*

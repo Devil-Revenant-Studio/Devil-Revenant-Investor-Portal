@@ -44,6 +44,14 @@ Complete visual representation of Devil Revenant Studio's technical infrastructu
 │  │   GPT-4      │  Payments    │  RPC Node    │             │
 │  └──────────────┴──────────────┴──────────────┘             │
 │                                                              │
+│  CLOUD INFRASTRUCTURE (Multi-Cloud Ready)                    │
+│  ┌──────────────┬──────────────┬──────────────┐             │
+│  │ Google Cloud │     AWS      │   Azure      │             │
+│  │ Vertex AI    │  EC2/EKS/S3  │  AKS/App Svc │             │
+│  │ Cloud Run    │  Lambda/CDN  │  Cosmos DB   │             │
+│  │ GKE          │  CloudFront  │  Azure AI    │             │
+│  └──────────────┴──────────────┴──────────────┘             │
+│                                                              │
 └─────────────────────────────────────────────────────────────────┘
 ```
 

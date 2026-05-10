@@ -66,6 +66,13 @@ A **quad-world blockchain MMO RPG** combining server-authoritative gameplay with
 - Python FastAPI for AI processing
 - Horizontal scaling via Docker
 
+**Cloud Infrastructure (Multi-Cloud):**
+- Google Cloud Platform (GCP) — Vertex AI, Cloud Run, GKE
+- Amazon Web Services (AWS) — EC2, EKS, S3, Lambda, CloudFront
+- Microsoft Azure — AKS, App Service, Cosmos DB, Azure AI
+- Railway.app — Current production hosting
+- Docker containers — portable across all 3 major clouds
+
 **Frontend (Unity):**
 - Quad-world rendering engine
 - Real-time multiplayer sync

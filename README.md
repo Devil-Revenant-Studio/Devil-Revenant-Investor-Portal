@@ -61,6 +61,13 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 - **Ethereum Mainnet** (production ready)
 - **Solidity 0.8.20** (auditable contracts)
 
+### Cloud Infrastructure
+- **Google Cloud Platform (GCP)** — Vertex AI, Cloud Run, GKE
+- **Amazon Web Services (AWS)** — EC2, EKS, S3, Lambda, CloudFront
+- **Microsoft Azure** — AKS, App Service, Cosmos DB, Azure AI
+- **Railway.app** — Current production hosting
+- **Docker** — Cloud-agnostic containerization
+
 ---
 
 ## 💰 Business Model
@@ -103,6 +110,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 - MongoDB Atlas: Data persistence
 - Redis Cloud: Real-time state
 - WebGL Build: Browser accessible
+- Multi-Cloud Ready: GCP + AWS + Azure
 
 🔄 **In Development:**
 - Web Frontend: React/Base44 integration
