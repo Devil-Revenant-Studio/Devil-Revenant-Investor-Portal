@@ -49,6 +49,12 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 - **Python FastAPI** (AI NPC engine — 30 characters)
 - **Solidity Smart Contracts** (DOT marketplace)
 
+### AI & ML Stack
+- **Google Vertex AI Gemini 2.5** (primary NPC dialogue — 99% cheaper than GPT-4)
+- **Meshy AI** (automated 3D model/asset generation)
+- **NVIDIA Build** (GPU-accelerated AI inference)
+- **OpenAI GPT-4** (fallback NPC dialogue)
+
 ### Client Stack
 - **Unity 2021.3.45f2 LTS** (quad-world rendering)
 - **WebGL Build** (browser-playable)

@@ -40,8 +40,12 @@ Complete visual representation of Devil Revenant Studio's technical infrastructu
 │                                                              │
 │  EXTERNAL SERVICES                                           │
 │  ┌──────────────┬──────────────┬──────────────┐             │
-│  │   OpenAI     │    Stripe    │   Alchemy    │             │
-│  │   GPT-4      │  Payments    │  RPC Node    │             │
+│  │   Vertex AI  │    Stripe    │   Alchemy    │             │
+│  │  Gemini 2.5  │  Payments    │  RPC Node    │             │
+│  └──────────────┴──────────────┴──────────────┘             │
+│  ┌──────────────┬──────────────┬──────────────┐             │
+│  │  Meshy AI    │ NVIDIA Build │   OpenAI     │             │
+│  │  3D Assets   │ GPU Inference│  GPT-4 (FB)  │             │
 │  └──────────────┴──────────────┴──────────────┘             │
 │                                                              │
 │  CLOUD INFRASTRUCTURE (Multi-Cloud Ready)                    │

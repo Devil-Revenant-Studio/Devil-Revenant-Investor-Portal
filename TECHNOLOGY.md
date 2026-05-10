@@ -31,8 +31,11 @@ Devil Revenant Studio utilizes a **modern, scalable, and production-ready** tech
 │  AI TIER                                        │
 │  ├─ Python 3.13.8 (AI Runtime)                 │
 │  ├─ FastAPI (API Framework)                    │
-│  ├─ OpenAI GPT-4 (NPC Dialogue)                │
-│  └─ Vertex AI (Google ML)                      │
+│  ├─ OpenAI GPT-4 (NPC Dialogue - fallback)      │
+│  ├─ Vertex AI Gemini 2.5 (Primary NPC AI)       │
+│  ├─ Meshy AI (3D Asset Generation)               │
+│  ├─ NVIDIA Build (GPU Inference)                 │
+│  └─ Stable Diffusion (Texture Generation)       │
 │                                                 │
 │  BLOCKCHAIN TIER                                │
 │  ├─ Solidity 0.8.20 (Smart Contracts)          │
@@ -207,8 +210,10 @@ Player → Socket.IO → aiWorker.js → FastAPI Endpoint
 
 | LLM | Purpose | Cost | Status |
 |-----|---------|------|--------|
-| OpenAI GPT-4 | Primary NPC dialogue | $0.03 per 1K tokens | ✅ Active |
-| Vertex AI (Google) | Fallback NPC responses | $0.0005 per token | ✅ Fallback |
+| Vertex AI Gemini 2.5 | Primary NPC dialogue (99% cheaper) | $0.000075 per 1K tokens | ✅ Primary |
+| OpenAI GPT-4 | Fallback NPC dialogue | $0.03 per 1K tokens | ✅ Fallback |
+| Meshy AI | 3D model/asset generation | Pay-per-model | ✅ Active |
+| NVIDIA Build | GPU inference, model serving | Pay-per-use | ✅ Active |
 | Ollama (local) | Development testing | Free | 🔄 In Dev |
 
 ---
@@ -278,6 +283,8 @@ Contract: DevilRevenantNFT.sol (ERC-721)
 | **Database** | MongoDB Atlas | Data persistence | $57/mo (M20) |
 | **Cache** | Redis Cloud | Real-time state | $18/mo |
 | **LLM APIs** | OpenAI/Vertex | AI processing | Pay-per-use |
+| **3D AI** | Meshy AI | 3D asset generation | Pay-per-model |
+| **GPU Inference** | NVIDIA Build | AI model serving | Pay-per-use |
 | **RPC Nodes** | Alchemy | Blockchain | $20-50/mo |
 | **Cloud (GCP)** | Google Cloud | Vertex AI, Cloud Run, GKE | Pay-per-use |
 | **Cloud (AWS)** | Amazon Web Services | EC2, EKS, S3, Lambda | Pay-per-use |

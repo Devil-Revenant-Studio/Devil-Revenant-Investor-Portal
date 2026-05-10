@@ -67,11 +67,17 @@ A **quad-world blockchain MMO RPG** combining server-authoritative gameplay with
 - Horizontal scaling via Docker
 
 **Cloud Infrastructure (Multi-Cloud):**
-- Google Cloud Platform (GCP) — Vertex AI, Cloud Run, GKE
+- Google Cloud Platform (GCP) — Vertex AI Gemini 2.5, Cloud Run, GKE
 - Amazon Web Services (AWS) — EC2, EKS, S3, Lambda, CloudFront
 - Microsoft Azure — AKS, App Service, Cosmos DB, Azure AI
 - Railway.app — Current production hosting
 - Docker containers — portable across all 3 major clouds
+
+**AI & ML Pipeline:**
+- Google Vertex AI Gemini 2.5 — primary NPC dialogue (99% cost reduction vs GPT-4)
+- Meshy AI — automated 3D model and asset generation
+- NVIDIA Build — GPU-accelerated inference and model serving
+- OpenAI GPT-4 — fallback NPC dialogue system
 
 **Frontend (Unity):**
 - Quad-world rendering engine
