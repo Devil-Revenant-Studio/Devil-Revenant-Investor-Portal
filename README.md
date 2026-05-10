@@ -14,7 +14,7 @@
 
 | Project | Status | Progress | Tech Stack | Live URL |
 |---------|--------|----------|-----------|----------|
-| **Devil Revenant MMO** | 🔴 Alpha 1.1.2 | 17% | Unity 2021 + Node.js + Python AI | [Production](#deployment-status) |
+| **Devil Revenant MMO** | 🔴 Alpha 1.1.2 | Hybrid World Demo ~85% (Unity client ~17%) | Unity 2021 + Node.js + Python AI | [Production](#deployment-status) |
 | **Devil Revenant App** | 🟡 Beta | 65% | React + Vite + Tailwind + Base44 | [Planning](#deployment-status) |
 | **Rise of the Hero** | 🟡 Pre-Production | 5% | Unreal Engine + 3D Animation | Q3 2026 |
 
@@ -24,7 +24,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 
 #### Core Features
 - 🌍 **4 Interconnected Worlds**: Angel, Demon, Human, Hybrid
-- 🤖 **28 AI-Driven NPC Characters** with dynamic dialogue & cross-world awareness
+- 🤖 **30 AI-Driven NPC Characters** with dynamic dialogue & cross-world awareness
 - 🎮 **12 Playable Classes** × 4 Races = 48 unique character combinations
 - ⚔️ **Real-time Combat**: PvE + PvP with server-authoritative validation
 - 💱 **DOT Marketplace**: In-game trading using Polkadot DOT tokens
@@ -33,10 +33,10 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 - 🤝 **Guild System**: Cross-faction alliances
 - 🌐 **Cross-World Events**: Server-wide boss raids
 
-#### Key NPCs (28 Total)
+#### Key NPCs (30 Total)
 **Protagonists:** Kaelin (Hybrid Hero), Raphael (Angel General), Nyx Umbra (Balance Entity)  
 **Antagonist:** Verschlinger (Chaos God)  
-**Factions:** 7 Angels + 11 Demons + 5 Hybrids + 5 Humans
+**Factions:** 8 Angels + 12 Demons + 5 Hybrids + 5 Humans
 
 ---
 
@@ -46,7 +46,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 - **Node.js v22.20.0** + Express + Socket.IO
 - **MongoDB Atlas** (player/NPC data)
 - **Redis Cloud** (position cache, cross-world events)
-- **Python FastAPI** (AI NPC engine - 30 characters)
+- **Python FastAPI** (AI NPC engine — 30 characters)
 - **Solidity Smart Contracts** (DOT marketplace)
 
 ### Client Stack
@@ -115,7 +115,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 
 ## 📊 Metrics & KPIs
 
-- **NPC AI Engine**: 28 characters with dynamic dialogue
+- **NPC AI Engine**: 30 characters with dynamic dialogue
 - **Server Health**: A- (88/100)
 - **Test Coverage**: 100% workflows passing
 - **Production Uptime**: 99.5% (Railway)
@@ -149,4 +149,6 @@ All projects are licensed under the **MIT License** — open-source with commerc
 
 **For investor inquiries:** Contact via GitHub organization or reach out through [your website/email]
 
-*Last Updated: May 7, 2026 | Alpha 1.1.2 Status*
+---
+
+**Last Updated:** May 10, 2026 | Alpha 1.1.2 Status

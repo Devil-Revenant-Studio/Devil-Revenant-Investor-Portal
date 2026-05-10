@@ -116,7 +116,7 @@ Complete visual representation of Devil Revenant Studio's technical infrastructu
 │  ├─ faction (Angel|Demon|Human)
 │  └─ createdAt
 
-├─ CHARACTERS Collection (28 NPCs)
+├─ CHARACTERS Collection (30 NPCs)
 │  ├─ npcId (PK)
 │  ├─ name
 │  ├─ world (Angel|Demon|Hybrid|Human)

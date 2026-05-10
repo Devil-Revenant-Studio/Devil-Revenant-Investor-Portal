@@ -186,7 +186,7 @@ Player → Socket.IO → aiWorker.js → FastAPI Endpoint
                                       ↓
                            NPCBehaviorEngine (Python)
                                       ↓
-                           CharacterDatabase.json (28 NPCs)
+                           CharacterDatabase.json (30 NPCs)
                                       ↓
                            OpenAI GPT-4 API
                                       ↓
@@ -194,7 +194,7 @@ Player → Socket.IO → aiWorker.js → FastAPI Endpoint
 ```
 
 **Features:**
-- ✅ 28 AI-driven NPCs
+- ✅ 30 AI-driven NPCs
 - ✅ Dynamic dialogue generation
 - ✅ Cross-world awareness
 - ✅ Personality consistency

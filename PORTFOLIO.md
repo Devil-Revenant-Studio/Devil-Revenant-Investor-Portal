@@ -5,7 +5,7 @@
 ## 1. 🔥 Devil Revenant MMO RPG (Main Project)
 
 **Status:** Alpha 1.1.2 - Active Development  
-**Completion:** 17% (Unity Client); 85% (Backend)  
+**Completion:** Hybrid World Demo ~85%; Backend 85%; Unity Client overall ~17%  
 **Target Launch:** June 30, 2026  
 **Repository:** [Devil-Revenant-MMO-RPG](https://github.com/Devil-Revenant-Studio/Devil-Revenant-MMO-RPG)
 
@@ -18,7 +18,7 @@ A **quad-world blockchain MMO RPG** combining server-authoritative gameplay with
 | Aspect | Details |
 |--------|---------|
 | **Worlds** | 4 (Angel, Demon, Human, Hybrid) |
-| **NPCs** | 28 AI-driven characters |
+| **NPCs** | 30 AI-driven characters |
 | **Classes** | 12 playable classes |
 | **Races** | 4 (Human, Angel, Demon, Hybrid) |
 | **Combat System** | Real-time PvE + PvP |
@@ -35,7 +35,7 @@ A **quad-world blockchain MMO RPG** combining server-authoritative gameplay with
 - ✅ Combat system (server-authoritative)
 - ✅ Basic NPC dialogue
 - ✅ Hybrid world environment
-- 📊 **Progress: 17% (Unity)**
+- 📊 **Progress: Hybrid World Demo ~85%**
 
 #### Phase 2: Full Alpha (June 2026)
 - 🔄 All 4 worlds (Angel, Demon, Human, Hybrid)
@@ -195,7 +195,7 @@ A **companion anime series** based on the MMO storyline:
 | Metric | MMO RPG | Web App | Anime |
 |--------|---------|---------|-------|
 | **Status** | Alpha | Beta | Pre-Prod |
-| **Completion** | 17-85% | 65% | 5% |
+| **Completion** | Demo ~85%; Client ~17% | 65% | 5% |
 | **Revenue Stream** | Subscriptions + Blockchain | Subscriptions | Ads + Merch |
 | **Launch** | Jun 2026 | May 2026 | Q3 2026 |
 | **Team Size** | 3-5 devs | 2-3 devs | 1-2 producers |
@@ -257,4 +257,4 @@ All projects available under **MIT License** with commercial support.
 
 ---
 
-*Portfolio Last Updated: May 7, 2026*
+*Portfolio Last Updated: May 10, 2026*

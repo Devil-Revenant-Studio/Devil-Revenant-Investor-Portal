@@ -1,6 +1,6 @@
 # 📅 Development Roadmap 2026
 
-**Current Status:** Alpha 1.1.2 (17% Complete - Hybrid World Demo)  
+**Current Status:** Alpha 1.1.2 (Hybrid World Demo ~85% Complete)  
 **Update Frequency:** Monthly reviews with stakeholder feedback
 
 ---
@@ -11,7 +11,7 @@
        MAY        JUN        JUL        AUG        SEP        OCT
     ├────────┤├────────┤├────────┤├────────┤├────────┤├────────┤
     │ DEMO   ││ ALPHA  ││ BETA   ││ LIVE   ││ MEDIA  ││ SCALE  │
-    │ 17%    ││ 100%   ││ 80%    ││ 50%    ││LAUNCH  ││ 100%   │
+    │ ~85%   ││ 100%   ││ 80%    ││ 50%    ││LAUNCH  ││ 100%   │
     └────────┴┴────────┴┴────────┴┴────────┴┴────────┴┴────────┘
 ```
 
@@ -75,7 +75,7 @@ Playable WebGL demo:
 Full Alpha 1.1.2:
 ├─ 4 worlds (all regions)
 ├─ 12 classes × 4 races = 48 combos
-├─ 15 AI NPCs (expanded)
+├─ 30 AI NPCs (expanded)
 ├─ Server-authoritative combat
 ├─ Basic economy (NPC shops)
 └─ Performance: 60 FPS (PC), 30 FPS (Web)
