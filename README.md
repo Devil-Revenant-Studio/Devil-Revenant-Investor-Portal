@@ -1,6 +1,6 @@
 # 🔥 Devil Revenant Studio — Investor Portfolio
 
-**Status:** Alpha 1.1.2 - Active Development  
+**Status:** Alpha 1.1.2 — Active Development  
 **Demo Target:** End of May 2026 | **Alpha Target:** June 30, 2026  
 **License:** MIT | **Organization:** [Devil-Revenant-Studio](https://github.com/Devil-Revenant-Studio)
 
@@ -10,19 +10,39 @@
 
 **Devil Revenant Studio** develops **advanced blockchain MMO RPG ecosystems** with AI-driven NPCs, cross-platform deployment, and cryptocurrency integration.
 
-### 🎯 Current Portfolio (3 Major Projects)
+### 🎯 Current Portfolio (5 Platforms)
 
-| Project | Status | Progress | Tech Stack | Live URL |
-|---------|--------|----------|-----------|----------|
-| **Devil Revenant MMO** | 🔴 Alpha 1.1.2 | Hybrid World Demo ~85% (Unity client ~17%) | Unity 2021 + Node.js + Python AI | [Production](#deployment-status) |
-| **Devil Revenant App** | 🟡 Beta | 65% | React + Vite + Tailwind + Base44 | [Planning](#deployment-status) |
-| **Rise of the Hero** | 🟡 Pre-Production | 5% | Unreal Engine + 3D Animation | Q3 2026 |
+| Platform | Status | Progress | Tech Stack | Live |
+|----------|--------|----------|-----------|------|
+| **Devil Revenant MMO — Server** | 🟢 Production | **92%** | Node.js v22 + Express + Socket.IO + MongoDB Atlas + Redis | [Railway](https://lessdevilrevenantmmorpg-production.up.railway.app) |
+| **Devil Revenant MMO — Unity Client** | 🔴 Alpha 1.1.2 | **~35%** | Unity 2021.3.45f2 LTS · 52 C# scripts · WebGL | In Development |
+| **Hybrid World Demo** | 🟢 Playable | **~85%** | Unity WebGL Build | [WebGL Demo](#demo) |
+| **Devil Revenant App** (Web Frontend) | 🟡 Beta | **75%** | React 18 + Vite + Tailwind + Base44 + Polkadot | [Netlify](https://devil-revenant-app.netlify.app) |
+| **Python AI Engine** | 🟢 Production | **90%** | FastAPI + Vertex AI Gemini 2.5 + NVIDIA NIM | [Railway](https://python-ai-production-e0cd.up.railway.app) |
+| **Blockchain (DOT/NFT)** | 🟢 Deployed | **85%** | Solidity 0.8.20 · 5 contracts · Sepolia testnet | [Etherscan](#blockchain-contracts) |
+| **Website** | 🟢 Live | **95%** | HTML/CSS/JS · 23 pages · Multi-language | [Netlify](https://devilrevenant.netlify.app) |
+| **Revenant Vault** | 🟡 Beta | **40%** | React + Base44 Identity/Wallet | In Development |
+| **Rise of the Hero** (Anime) | 🟡 Pre-Production | **5%** | Unreal Engine + 3D Animation | Q3 2026 |
 
-### 🌍 Quad-World Blockchain MMO RPG
+---
+
+## 🎮 Hybrid World Demo
+
+> **Playable WebGL demo** of the Hybrid realm — browser-accessible, no install required.
+
+- ✅ Hybrid World environment fully generated
+- ✅ AI NPC dialogue system (30 characters with cross-world awareness)
+- ✅ Server-authoritative combat with real-time sync
+- ✅ UI: Health/Mana/Stamina bars, Quest Tracker, Dialogue Window, Skill Bar
+- ✅ WebGL build ready for browser play
+
+---
+
+## 🌍 Quad-World Blockchain MMO RPG
 
 A **massively multiplayer online RPG** combining 4 interconnected realms with AI-driven NPCs, real-time combat, and Polkadot (DOT) cryptocurrency integration.
 
-#### Core Features
+### Core Features
 - 🌍 **4 Interconnected Worlds**: Angel, Demon, Human, Hybrid
 - 🤖 **30 AI-Driven NPC Characters** with dynamic dialogue & cross-world awareness
 - 🎮 **12 Playable Classes** × 4 Races = 48 unique character combinations
@@ -33,21 +53,114 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 - 🤝 **Guild System**: Cross-faction alliances
 - 🌐 **Cross-World Events**: Server-wide boss raids
 
-#### Key NPCs (30 Total)
+### Key NPCs (30 Total)
 **Protagonists:** Kaelin (Hybrid Hero), Raphael (Angel General), Nyx Umbra (Balance Entity)  
 **Antagonist:** Verschlinger (Chaos God)  
 **Factions:** 8 Angels + 12 Demons + 5 Hybrids + 5 Humans
 
 ---
 
-## 🏗️ Technical Architecture
+## 🏗️ Platform Details
 
-### Backend Stack
-- **Node.js v22.20.0** + Express + Socket.IO
-- **MongoDB Atlas** (player/NPC data)
-- **Redis Cloud** (position cache, cross-world events)
-- **Python FastAPI** (AI NPC engine — 30 characters)
-- **Solidity Smart Contracts** (DOT marketplace)
+### 🖥️ Node.js Server — 92% Complete
+
+| Component | Count | Status |
+|-----------|-------|--------|
+| Manager Classes | 7 | ✅ Complete |
+| API Routes | 8 | ✅ Complete |
+| Data Models | 7 | ✅ Complete |
+| Auth Methods | 6 | ✅ Multi-provider |
+
+**Managers:** ChatManager · CombatManager · CrossWorldEventManager · DemoManager · PlayerManager · QuestManager · WorldManager
+
+**Implemented Features:**
+- ✅ Multi-auth: JWT, Ory, Entra ID, Discord, Google, GitHub OAuth
+- ✅ Server-authoritative combat system
+- ✅ AI NPC management + cross-world events
+- ✅ Stripe subscription system (4 tiers)
+- ✅ Blockchain DOT reward integration
+- ✅ WebSocket rate limiting + Prometheus metrics
+- ✅ Swagger API documentation
+- ✅ MongoDB Atlas persistence + Redis Cloud caching
+
+**Deployment:** 🟢 Railway — `https://lessdevilrevenantmmorpg-production.up.railway.app`
+
+---
+
+### 🎮 Unity Client — ~35% Complete (52 C# Scripts)
+
+| System | Scripts | Status |
+|--------|---------|--------|
+| World System | 5 | ✅ MultiWorldManager + 4 generators |
+| Combat | 4 | ✅ Server-synced CombatManager |
+| AI NPCs | 3 | ✅ NPCDialogueController + HybridNPC |
+| UI Components | 11 | ✅ Full HUD framework |
+| Blockchain | 5 | ✅ Wallet + NFT + DOT integration |
+| Networking | 3 | ✅ Socket.IO + WebSocket |
+| Quests | 2 | ✅ Dynamic AI-driven quests |
+| Testing | 2 | ✅ DevilRevenantTestSuite |
+
+**World Generators:** AngelicWorldGenerator · DemonicWorldGenerator · HumanWorldGenerator · HybridWorldGenerator
+
+---
+
+### 🤖 Python AI Engine — 90% Complete
+
+| Component | Details | Status |
+|-----------|---------|--------|
+| NPC Characters | 30 distinct personalities | ✅ Live |
+| AI Engines | 6 modules | ✅ Active |
+| LLM Integrations | 3 providers | ✅ Multi-fallback |
+
+**AI Modules:** npc-behavior.py · dialogue-engine.py · quest-generator.py · npc-personality-learning.py · ai-api.py · main.py
+
+**LLM Stack:**
+- 🥇 **Google Vertex AI Gemini 2.5** — Primary (99% cheaper than GPT-4)
+- 🥈 **OpenAI GPT-4** — Fallback
+- 🥉 **NVIDIA NIM** — Local personality learning inference
+
+**Deployment:** 🟢 Railway — `https://python-ai-production-e0cd.up.railway.app`
+
+---
+
+### ⛓️ Blockchain — 85% Complete (Sepolia Deployed)
+
+| Contract | Address | Status |
+|----------|---------|--------|
+| **DOT Token** | `0x86bB91055B92901F3eed66eF405787cef3CE408c` | ✅ Deployed |
+| **NFT (ERC-721)** | `0xCCA369bF6E56F6d8D4819f0FD94D088E1E11821B` | ✅ Deployed |
+| **DOT Marketplace** | `0x9a97106fb27EB3933b2378F22F3047F51cD29d66` | ✅ Deployed |
+| **DOT Staking** | `0x4b4263C7d5042D90F111c037a5bBdB62df4be116` | ✅ Deployed |
+| **SubscriptionPayment** | Sepolia | ✅ Deployed |
+
+**Test Coverage:** 4 test suites (DOTMarketplace · DOTStaking · DevilRevenantNFT · SubscriptionPayment)  
+**Next:** Security audit → Mainnet deployment
+
+---
+
+### 🖥️ Devil Revenant App — 75% Complete
+
+| Component | Count | Status |
+|-----------|-------|--------|
+| React Components | 127+ | ✅ Built |
+| Pages | 23+ | ✅ Implemented |
+| UI Library | 50+ Radix UI | ✅ Complete |
+
+**Pages:** Landing · Dashboard · Characters · About · Contact · Download · Events · FAQ · Guilds · Impressum · Leaderboard · Music · Play (WebGL embed) · Press · Privacy · Roadmap · Shop · Anime · and more
+
+**Integrations:** Base44 SDK · Azure MSAL Auth · Polkadot API · Stripe Payments
+
+---
+
+### 🌐 Website — 95% Complete
+
+- 23 HTML pages · Multi-language support · SEO optimized
+- OAuth integration · Docker-ready · GCP App Engine compatible
+- **Deployment:** 🟢 Netlify (Live)
+
+---
+
+## 🏗️ Technical Architecture
 
 ### AI & ML Stack
 - **Google Vertex AI Gemini 2.5** (primary NPC dialogue — 99% cheaper than GPT-4)
@@ -55,23 +168,18 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 - **NVIDIA Build** (GPU-accelerated AI inference)
 - **OpenAI GPT-4** (fallback NPC dialogue)
 
-### Client Stack
-- **Unity 2021.3.45f2 LTS** (quad-world rendering)
-- **WebGL Build** (browser-playable)
-- **React 18** + Vite (web frontend)
-- **Tailwind CSS** (responsive UI)
-
 ### Blockchain
 - **Polkadot DOT** (primary token)
-- **Sepolia Testnet** (development)
-- **Ethereum Mainnet** (production ready)
+- **Sepolia Testnet** — 5 contracts deployed (May 14, 2026)
+- **Ethereum Mainnet** (post-audit)
 - **Solidity 0.8.20** (auditable contracts)
 
 ### Cloud Infrastructure
 - **Google Cloud Platform (GCP)** — Vertex AI, Cloud Run, GKE
 - **Amazon Web Services (AWS)** — EC2, EKS, S3, Lambda, CloudFront
 - **Microsoft Azure** — AKS, App Service, Cosmos DB, Azure AI
-- **Railway.app** — Current production hosting
+- **Railway.app** — Current production hosting (Server + AI Engine)
+- **Netlify** — Website + React App hosting
 - **Docker** — Cloud-agnostic containerization
 
 ---
@@ -102,26 +210,24 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 
 | Phase | Timeline | Deliverable | Status |
 |-------|----------|-------------|--------|
-| **Alpha 1.1.2** | May-June 2026 | Hybrid World Demo + Combat | 🔴 Active |
+| **Alpha 1.1.2** | May–June 2026 | Hybrid World Demo + Combat | 🔴 Active |
 | **Alpha 1.2.0** | July 2026 | All 4 Worlds + Quest System | 🟡 Planned |
-| **Beta 1.0.0** | Aug-Sep 2026 | Polished gameplay + Balance | 🟡 Planned |
+| **Beta 1.0.0** | Aug–Sep 2026 | Polished gameplay + Balance | 🟡 Planned |
 | **Production 1.0** | Oct 2026 | Full launch + DOT support | ⏳ Roadmap |
 
 ---
 
-## 🚀 Deployment Status
+## 🚀 Live Deployments
 
-✅ **Live Production:**
-- MMO Server: Node.js on Railway
-- MongoDB Atlas: Data persistence
-- Redis Cloud: Real-time state
-- WebGL Build: Browser accessible
-- Multi-Cloud Ready: GCP + AWS + Azure
-
-🔄 **In Development:**
-- Web Frontend: React/Base44 integration
-- Python AI: NPC behavior refinement
-- Smart Contracts: Audit pending
+| Service | Platform | URL | Status |
+|---------|----------|-----|--------|
+| MMO Server | Railway | `lessdevilrevenantmmorpg-production.up.railway.app` | 🟢 Online |
+| Python AI Engine | Railway | `python-ai-production-e0cd.up.railway.app` | 🟢 Online |
+| Website | Netlify | `devilrevenant.netlify.app` | 🟢 Online |
+| React App | Netlify | `devil-revenant-app.netlify.app` | 🟡 Beta |
+| MongoDB Atlas | Cloud | Atlas Cluster | 🟢 Online |
+| Redis Cloud | Cloud | Redis Instance | 🟢 Online |
+| Blockchain | Sepolia | 5 contracts deployed | 🟢 Deployed |
 
 📋 See [DEPLOYMENT-STATUS.md](DEPLOYMENT-STATUS.md) for full details.
 
@@ -129,11 +235,19 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 
 ## 📊 Metrics & KPIs
 
-- **NPC AI Engine**: 30 characters with dynamic dialogue
-- **Server Health**: A- (88/100)
-- **Test Coverage**: 100% workflows passing
-- **Production Uptime**: 99.5% (Railway)
-- **Combat Latency**: <50ms (Socket.IO optimized)
+| Metric | Value |
+|--------|-------|
+| NPC AI Characters | 30 with dynamic dialogue |
+| Unity C# Scripts | 52 |
+| React Components | 127+ |
+| Smart Contracts Deployed | 5 (Sepolia) |
+| API Routes | 8 |
+| Auth Providers | 6 (JWT, Ory, Entra, Discord, Google, GitHub) |
+| Website Pages | 23 |
+| Server Health | A- (88/100) |
+| Production Uptime | 99.5% (Railway) |
+| Combat Latency | <50ms (Socket.IO) |
+| AI Cost Savings | 99% vs GPT-4 (Vertex AI Gemini 2.5) |
 
 ---
 
@@ -150,8 +264,8 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 
 ## 👥 Team
 
-**Founder & Lead Developer:** [Your Profile]  
-**Organization:** Devil-Revenant-Studio (GitHub)
+**Founder & Lead Developer:** Martin Beständig ([@Reisink2](https://github.com/Reisink2))  
+**Organization:** [Devil-Revenant-Studio](https://github.com/Devil-Revenant-Studio)
 
 ---
 
@@ -161,8 +275,8 @@ All projects are licensed under the **MIT License** — open-source with commerc
 
 ---
 
-**For investor inquiries:** Contact via GitHub organization or reach out through [your website/email]
+**For investor inquiries:** Contact via [GitHub Organization](https://github.com/Devil-Revenant-Studio) or email.
 
 ---
 
-**Last Updated:** May 10, 2026 | Alpha 1.1.2 Status
+**Last Updated:** May 15, 2026 | Alpha 1.1.2 Status
