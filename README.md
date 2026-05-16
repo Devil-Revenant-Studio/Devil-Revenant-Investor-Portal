@@ -287,3 +287,9 @@ All projects are licensed under the **MIT License** — open-source with commerc
 ---
 
 **Last Updated:** May 15, 2026 | Alpha 1.1.2 Status
+
+## Documentation
+For detailed information, please refer to the following documents:
+- [MANIFEST.md](MANIFEST.md)
+- [FUNDER_VISION.md](FUNDER_VISION.md)
+- [RECHTLICHE.md](RECHTLICHE.md)
