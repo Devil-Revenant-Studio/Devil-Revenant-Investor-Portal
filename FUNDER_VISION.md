@@ -285,6 +285,6 @@ We're seeking **$5M Series Seed** to scale development, infrastructure, and go-t
 ---
 
 **Contact:** hello@devilrevenant.org  
-**Website:** https://devil-revenant.studio  
+**Website:** https://devilrevenant.org  
 **GitHub:** https://github.com/Devil-Revenant-Studio  
 **Discord:** [Community Link]

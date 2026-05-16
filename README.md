@@ -17,10 +17,10 @@
 | **Devil Revenant MMO — Server** | 🟢 Production | **92%** | Node.js v22 + Express + Socket.IO + MongoDB Atlas + Redis | [Railway](https://lessdevilrevenantmmorpg-production.up.railway.app) |
 | **Devil Revenant MMO — Unity Client** | 🔴 Alpha 1.1.2 | **~35%** | Unity 2021.3.45f2 LTS · 52 C# scripts · WebGL | In Development |
 | **Hybrid World Demo** | 🟢 Playable | **~85%** | Unity WebGL Build | [WebGL Demo](#-hybrid-world-demo) |
-| **Devil Revenant App** (Web Frontend) | 🟡 Beta | **75%** | React 18 + Vite + Tailwind + Base44 + Polkadot | [Netlify](https://devil-revenant-app.netlify.app) |
+| **Devil Revenant App** (Web Frontend) | 🟡 Beta | **75%** | React 18 + Vite + Tailwind + Base44 + Polkadot | [Netlify](https://app.devilrevenant.org) |
 | **Python AI Engine** | 🟢 Production | **90%** | FastAPI + Vertex AI Gemini 2.5 + NVIDIA NIM | [Railway](https://python-ai-production-e0cd.up.railway.app) |
 | **Blockchain (DOT/NFT)** | 🟢 Deployed | **85%** | Solidity 0.8.20 · 5 contracts · Sepolia testnet | [Etherscan](#%EF%B8%8F-blockchain--85-complete-sepolia-deployed) |
-| **Website** | 🟢 Live | **95%** | HTML/CSS/JS · 23 pages · Multi-language | [Netlify](https://devilrevenant.netlify.app) |
+| **Website** | 🟢 Live | **95%** | HTML/CSS/JS · 23 pages · Multi-language | [Netlify](https://devilrevenant.org) |
 | **Revenant Vault** | 🟡 Beta | **40%** | React + Base44 Identity/Wallet | In Development |
 | **Rise of the Hero** (Anime) | 🟡 Pre-Production | **5%** | Unreal Engine + 3D Animation | Q3 2026 |
 
@@ -230,8 +230,8 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 | ------- | -------- | --- | ------ |
 | MMO Server | Railway | `lessdevilrevenantmmorpg-production.up.railway.app` | 🟢 Online |
 | Python AI Engine | Railway | `python-ai-production-e0cd.up.railway.app` | 🟢 Online |
-| Website | Netlify | `devilrevenant.netlify.app` | 🟢 Online |
-| React App | Netlify | `devil-revenant-app.netlify.app` | 🟡 Beta |
+| Website | Netlify | `devilrevenant.org` | 🟢 Online |
+| React App | Netlify | `app.devilrevenant.org` | 🟡 Beta |
 | MongoDB Atlas | Cloud | Atlas Cluster | 🟢 Online |
 | Redis Cloud | Cloud | Redis Instance | 🟢 Online |
 | Blockchain | Sepolia | 5 contracts deployed | 🟢 Deployed |
