@@ -133,7 +133,7 @@ Devil-Revenant-Studio provides the Game "as-is" without warranty of continuous a
 - Right to data portability (export account)
 - Right to object (opt-out of marketing)
 
-**Request Process:** privacy@devil-revenant.studio → Response within 30 days
+**Request Process:** privacy@devilrevenant.org → Response within 30 days
 
 **Data Transfers (Non-EU):**
 - Data transferred to US (Railway hosting) & GCP (Vertex AI)
@@ -151,7 +151,7 @@ Devil-Revenant-Studio complies with Children's Online Privacy Protection Act (CO
 - No third-party data sharing
 
 **Parental Portal:**
-- Email: parent@devil-revenant.studio
+- Email: parent@devilrevenant.org
 - Requests processed within 5 business days
 
 ### 4. Cookie & Tracking Policy
@@ -343,7 +343,7 @@ Devil-Revenant-Studio complies with Children's Online Privacy Protection Act (CO
 **How to Report:**
 1. In-game: Right-click player → Report
 2. Discord: #player-reports channel
-3. Email: reports@devil-revenant.studio
+3. Email: reports@devilrevenant.org
 
 **Report Information Requested:**
 - Player name/ID
@@ -403,7 +403,7 @@ Devil-Revenant-Studio complies with Children's Online Privacy Protection Act (CO
 
 **Dispute Resolution:**
 - DM discord community manager
-- Email: legal@devil-revenant.studio
+- Email: legal@devilrevenant.org
 - Response SLA: 7 business days
 
 ---
@@ -440,10 +440,10 @@ By playing, you assume risks:
 ## Contact & Escalation
 
 **For Questions:**
-- legal@devil-revenant.studio
-- privacy@devil-revenant.studio
-- reports@devil-revenant.studio
-- support@devil-revenant.studio
+- legal@devilrevenant.org
+- privacy@devilrevenant.org
+- reports@devilrevenant.org
+- support@devilrevenant.org
 
 **Mailing Address:**
 ```
