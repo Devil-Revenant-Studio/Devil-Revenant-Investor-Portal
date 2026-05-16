@@ -13,13 +13,13 @@
 ### 🎯 Current Portfolio (5 Platforms)
 
 | Platform | Status | Progress | Tech Stack | Live |
-|----------|--------|----------|-----------|------|
+| -------- | ------ | -------- | --------- | ---- |
 | **Devil Revenant MMO — Server** | 🟢 Production | **92%** | Node.js v22 + Express + Socket.IO + MongoDB Atlas + Redis | [Railway](https://lessdevilrevenantmmorpg-production.up.railway.app) |
 | **Devil Revenant MMO — Unity Client** | 🔴 Alpha 1.1.2 | **~35%** | Unity 2021.3.45f2 LTS · 52 C# scripts · WebGL | In Development |
-| **Hybrid World Demo** | 🟢 Playable | **~85%** | Unity WebGL Build | [WebGL Demo](#demo) |
+| **Hybrid World Demo** | 🟢 Playable | **~85%** | Unity WebGL Build | [WebGL Demo](#-hybrid-world-demo) |
 | **Devil Revenant App** (Web Frontend) | 🟡 Beta | **75%** | React 18 + Vite + Tailwind + Base44 + Polkadot | [Netlify](https://devil-revenant-app.netlify.app) |
 | **Python AI Engine** | 🟢 Production | **90%** | FastAPI + Vertex AI Gemini 2.5 + NVIDIA NIM | [Railway](https://python-ai-production-e0cd.up.railway.app) |
-| **Blockchain (DOT/NFT)** | 🟢 Deployed | **85%** | Solidity 0.8.20 · 5 contracts · Sepolia testnet | [Etherscan](#blockchain-contracts) |
+| **Blockchain (DOT/NFT)** | 🟢 Deployed | **85%** | Solidity 0.8.20 · 5 contracts · Sepolia testnet | [Etherscan](#%EF%B8%8F-blockchain--85-complete-sepolia-deployed) |
 | **Website** | 🟢 Live | **95%** | HTML/CSS/JS · 23 pages · Multi-language | [Netlify](https://devilrevenant.netlify.app) |
 | **Revenant Vault** | 🟡 Beta | **40%** | React + Base44 Identity/Wallet | In Development |
 | **Rise of the Hero** (Anime) | 🟡 Pre-Production | **5%** | Unreal Engine + 3D Animation | Q3 2026 |
@@ -43,6 +43,7 @@
 A **massively multiplayer online RPG** combining 4 interconnected realms with AI-driven NPCs, real-time combat, and Polkadot (DOT) cryptocurrency integration.
 
 ### Core Features
+
 - 🌍 **4 Interconnected Worlds**: Angel, Demon, Human, Hybrid
 - 🤖 **30 AI-Driven NPC Characters** with dynamic dialogue & cross-world awareness
 - 🎮 **12 Playable Classes** × 4 Races = 48 unique character combinations
@@ -54,6 +55,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 - 🌐 **Cross-World Events**: Server-wide boss raids
 
 ### Key NPCs (30 Total)
+
 **Protagonists:** Kaelin (Hybrid Hero), Raphael (Angel General), Nyx Umbra (Balance Entity)  
 **Antagonist:** Verschlinger (Chaos God)  
 **Factions:** 8 Angels + 12 Demons + 5 Hybrids + 5 Humans
@@ -65,7 +67,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ### 🖥️ Node.js Server — 92% Complete
 
 | Component | Count | Status |
-|-----------|-------|--------|
+| --------- | ----- | ------ |
 | Manager Classes | 7 | ✅ Complete |
 | API Routes | 8 | ✅ Complete |
 | Data Models | 7 | ✅ Complete |
@@ -74,6 +76,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 **Managers:** ChatManager · CombatManager · CrossWorldEventManager · DemoManager · PlayerManager · QuestManager · WorldManager
 
 **Implemented Features:**
+
 - ✅ Multi-auth: JWT, Ory, Entra ID, Discord, Google, GitHub OAuth
 - ✅ Server-authoritative combat system
 - ✅ AI NPC management + cross-world events
@@ -90,7 +93,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ### 🎮 Unity Client — ~35% Complete (52 C# Scripts)
 
 | System | Scripts | Status |
-|--------|---------|--------|
+| ------ | ------- | ------ |
 | World System | 5 | ✅ MultiWorldManager + 4 generators |
 | Combat | 4 | ✅ Server-synced CombatManager |
 | AI NPCs | 3 | ✅ NPCDialogueController + HybridNPC |
@@ -107,7 +110,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ### 🤖 Python AI Engine — 90% Complete
 
 | Component | Details | Status |
-|-----------|---------|--------|
+| --------- | ------- | ------ |
 | NPC Characters | 30 distinct personalities | ✅ Live |
 | AI Engines | 6 modules | ✅ Active |
 | LLM Integrations | 3 providers | ✅ Multi-fallback |
@@ -115,6 +118,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 **AI Modules:** npc-behavior.py · dialogue-engine.py · quest-generator.py · npc-personality-learning.py · ai-api.py · main.py
 
 **LLM Stack:**
+
 - 🥇 **Google Vertex AI Gemini 2.5** — Primary (99% cheaper than GPT-4)
 - 🥈 **OpenAI GPT-4** — Fallback
 - 🥉 **NVIDIA NIM** — Local personality learning inference
@@ -126,7 +130,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ### ⛓️ Blockchain — 85% Complete (Sepolia Deployed)
 
 | Contract | Address | Status |
-|----------|---------|--------|
+| -------- | ------- | ------ |
 | **DOT Token** | `0x86bB91055B92901F3eed66eF405787cef3CE408c` | ✅ Deployed |
 | **NFT (ERC-721)** | `0xCCA369bF6E56F6d8D4819f0FD94D088E1E11821B` | ✅ Deployed |
 | **DOT Marketplace** | `0x9a97106fb27EB3933b2378F22F3047F51cD29d66` | ✅ Deployed |
@@ -141,7 +145,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ### 🖥️ Devil Revenant App — 75% Complete
 
 | Component | Count | Status |
-|-----------|-------|--------|
+| --------- | ----- | ------ |
 | React Components | 127+ | ✅ Built |
 | Pages | 23+ | ✅ Implemented |
 | UI Library | 50+ Radix UI | ✅ Complete |
@@ -163,18 +167,21 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ## 🏗️ Technical Architecture
 
 ### AI & ML Stack
+
 - **Google Vertex AI Gemini 2.5** (primary NPC dialogue — 99% cheaper than GPT-4)
 - **Meshy AI** (automated 3D model/asset generation)
 - **NVIDIA Build** (GPU-accelerated AI inference)
 - **OpenAI GPT-4** (fallback NPC dialogue)
 
 ### Blockchain
+
 - **Polkadot DOT** (primary token)
 - **Sepolia Testnet** — 5 contracts deployed (May 14, 2026)
 - **Ethereum Mainnet** (post-audit)
 - **Solidity 0.8.20** (auditable contracts)
 
 ### Cloud Infrastructure
+
 - **Google Cloud Platform (GCP)** — Vertex AI, Cloud Run, GKE
 - **Amazon Web Services (AWS)** — EC2, EKS, S3, Lambda, CloudFront
 - **Microsoft Azure** — AKS, App Service, Cosmos DB, Azure AI
@@ -209,7 +216,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ## 📈 Development Timeline
 
 | Phase | Timeline | Deliverable | Status |
-|-------|----------|-------------|--------|
+| ----- | -------- | ----------- | ------ |
 | **Alpha 1.1.2** | May–June 2026 | Hybrid World Demo + Combat | 🔴 Active |
 | **Alpha 1.2.0** | July 2026 | All 4 Worlds + Quest System | 🟡 Planned |
 | **Beta 1.0.0** | Aug–Sep 2026 | Polished gameplay + Balance | 🟡 Planned |
@@ -220,7 +227,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ## 🚀 Live Deployments
 
 | Service | Platform | URL | Status |
-|---------|----------|-----|--------|
+| ------- | -------- | --- | ------ |
 | MMO Server | Railway | `lessdevilrevenantmmorpg-production.up.railway.app` | 🟢 Online |
 | Python AI Engine | Railway | `python-ai-production-e0cd.up.railway.app` | 🟢 Online |
 | Website | Netlify | `devilrevenant.netlify.app` | 🟢 Online |
@@ -236,7 +243,7 @@ A **massively multiplayer online RPG** combining 4 interconnected realms with AI
 ## 📊 Metrics & KPIs
 
 | Metric | Value |
-|--------|-------|
+| ------ | ----- |
 | NPC AI Characters | 30 with dynamic dialogue |
 | Unity C# Scripts | 52 |
 | React Components | 127+ |
